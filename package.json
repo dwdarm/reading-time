@@ -1,0 +1,23 @@
+{
+  "name": "@dwdarm/reading-time",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/reading-time.js",
+  "scripts": {
+    "test": "mocha",
+    "pretest": "eslint src"
+  },
+  "author": "Fajar Dwi Darmanto",
+  "license": "ISC",
+  "dependencies": {
+    "htmlparser2": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "expect.js": "^0.3.1",
+    "lorem-ipsum": "^2.0.3",
+    "mocha": "^8.1.2"
+  }
+}
